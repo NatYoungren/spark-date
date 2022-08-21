@@ -1,9 +1,11 @@
-# NativeBase Expo Template
+# spark-date
 
-The official NativeBase template for [Expo](https://docs.expo.io/)
+project built using NativeBase template for [Expo](https://docs.expo.io/)
 
-## Usage
+## setup
 
-```sh
-expo init my-app --template @native-base/expo-template
-```
+1. clone repo
+2. `npm install` to install required packages
+3. ...
+4. `npm start` to build and run!
+
