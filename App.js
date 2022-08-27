@@ -15,6 +15,7 @@ import {
 import NativeBaseIcon from "./components/NativeBaseIcon";
 import { Platform } from "react-native";
 import { HomeView } from "./src/components/HomeView";
+import { WelcomeView } from "./src/components/WelcomeView";
 
 // Define the config
 const config = {
@@ -28,7 +29,7 @@ export const theme = extendTheme({ config });
 export default function App() {
   return (
     <NativeBaseProvider>
-    <HomeView />
+    <WelcomeView />
       {/* <Center
         _dark={{ bg: "blueGray.900" }}
         _light={{ bg: "blueGray.50" }}
